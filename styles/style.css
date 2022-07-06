@@ -4,6 +4,7 @@
 }
 
 body {
+    /*background: linear-gradient(to right, #ffffff 50%, #F8F8FA 50%);*/
     background: linear-gradient(to right, #ffffff 50%, #F8F8FA 50%);
     font-family: Nunito-Bold, sans-serif;
 }
