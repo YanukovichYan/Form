@@ -22,22 +22,29 @@
                 <div id="fullName">
                     <div class="input-title">Full Name</div>
                     <input class="input" id="input-name" type="text" name="name" value="Antony Swarowski">
+                    <div class="error-text">Напишите ваше Имя и Фамилию (поле может содержать только буквы)</div>
                 </div>
-                <div>
+                <div id="username">
                     <div class="input-title">Your username</div>
                     <input class="input" id="input-username" type="text" name="name">
+                    <div class="error-text">Заполните username (поле может содержать только буквы латинского алфавита, цифры, символы (_ -)</div>
+                    <div class="error-text">Такой пользователь не зарегистрирован</div>
                 </div>
                 <div id="e-mail">
                     <div class="input-title">E-mail</div>
                     <input class="input" id="input-email" type="email" name="name">
+                    <div class="error-text">Заполните email (username@domain.com)</div>
                 </div>
-                <div>
+                <div id="password">
                     <div class="input-title">Password</div>
                     <input class="input" id="input-password" type="text" name="name">
+                    <div class="error-text">Заполните password</div>
+                    <div class="error-text">Неверный пароль</div>
                 </div>
                 <div id="repeatPassword">
                     <div class="input-title">Repeat Password</div>
                     <input class="input" id="input-repeatPassword" type="text" name="name">
+                    <div class="error-text">Заполните repeat password</div>
                 </div>
                 <div class="agree">
                     <label id="agree">
@@ -49,6 +56,9 @@
                     <input type="button" id="button" value="Sign Up">
                     <div class="text-account">
                         <a href="#">Already have an account?</a>
+                    </div>
+                    <div class="text-account-registration">
+                        <a href="#">Registration</a>
                     </div>
                 </div>
             </div>

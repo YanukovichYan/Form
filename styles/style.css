@@ -4,7 +4,6 @@
 }
 
 body {
-    /*background: linear-gradient(to right, #ffffff 50%, #F8F8FA 50%);*/
     background: linear-gradient(to right, #ffffff 50%, #F8F8FA 50%);
     font-family: Nunito-Bold, sans-serif;
 }
@@ -66,6 +65,12 @@ body {
     width: 452px;
 }
 
+.error-text {
+    font-size: 14px;
+    color: red;
+    display: none;
+}
+
 .agree {
     font-size: 16px;
     line-height: 27px;
@@ -78,7 +83,8 @@ body {
     margin-top: 40px;
 }
 
-#button {
+#button,
+#btn {
     font-size: 20px;
     color: #FFFFFF;
     width: 210px;
@@ -86,7 +92,6 @@ body {
     background: #DD3142;
     border-radius: 40px;
     border: none;
-    /*font-family: Nunito-Bold, sans-serif;*/
     cursor: pointer;
 }
 
@@ -95,6 +100,18 @@ body {
 }
 
 .text-account a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
+.text-account-registration {
+    display: none;
+    margin-top: 44px;
+}
+
+.text-account-registration a {
     text-decoration: none;
     font-size: 16px;
     line-height: 27px;
